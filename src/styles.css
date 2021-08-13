@@ -1,1 +1,64 @@
 /* You can add global styles to this file, and also import other style files */
+.block-div {
+  display: inline-flex;
+}
+body {
+  background-color: rgb(181, 127, 218);
+  font: 12px/1.4 "Gotham SSm A", "Helvetica Neue", Helvetica, Arial;
+}
+
+.pointSpan {
+  top: 49px;
+  color: red;
+  font-size: 25px;
+  font-weight: bold;
+  left: 0;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 4px;
+  position: absolute;
+  right: 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.questionSpan {
+  top: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  left: 0;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 4px;
+  position: absolute;
+  right: 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.answerSpan {
+  bottom: 5px;
+  font-size: 25px;
+  font-weight: bold;
+  left: 0;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 4px;
+  position: absolute;
+  right: 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.buttonSpan {
+  top: 5px;
+  font-size: 8px;
+  font-weight: bold;
+  background-color: rosybrown;
+  /* left: 0; */
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 4px;
+  position: absolute;
+  right: 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
