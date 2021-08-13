@@ -318,5 +318,6 @@ export class AppComponent {
   onDelete(quest: any) {
     let index = this.questions.findIndex((q) => q.id == quest.id);
     this.questions.splice(index, 1);
+    console.log(this.questions);
   }
 }

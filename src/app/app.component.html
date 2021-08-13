@@ -1,13 +1,23 @@
-<div class="container" style="text-align: center; margin-top: 20px">
+<div></div>
+<div
+  *ngIf="!(questions.length == 0)"
+  class="container"
+  style="text-align: center; margin-top: 20px"
+>
   <h1 class="jumbotron-heading" style="color: rgb(32, 30, 32)">
     <strong>🎈🎊🎉 ASHISH'S BACHELOR JEOPARDY! 🎉🎊🎈</strong>
   </h1>
 </div>
-<div class="album py-5" style="background-color: #a3d2ca">
+<div class="album py-5 bg-light" style="background-color: #e2eceb">
+  <div *ngIf="questions == [] || questions == null" style="text-align: center">
+    <h1 class="jumbotron-heading" style="color: rgb(32, 30, 32)">
+      <strong>🎇🎇 THANK YOU FOR PLAYING! 🎇🎇</strong>
+    </h1>
+  </div>
   <div class="container">
     <div class="row">
       <div class="col-md-3" *ngFor="let quest of questions">
-        <div class="card mb-4 box-shadow bg-light">
+        <div class="card mb-4 box-shadow" style="background-color: #d3e2e1">
           <div class="card-body">
             <p
               class="card-text"
@@ -69,4 +79,15 @@
       </div>
     </div>
   </div>
+</div>
+<div
+  album
+  py-5
+  bg-light
+  *ngIf="questions.length == 0"
+  style="text-align: center"
+>
+  <h1 class="jumbotron-heading" style="color: rgb(32, 30, 32)">
+    <strong>🎈🎊🎉 THANK YOU FOR PLAYING! 🎉🎊🎈</strong>
+  </h1>
 </div>
