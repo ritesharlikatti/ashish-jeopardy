@@ -1,4 +1,4 @@
-@charset "UTF-8";.block-div{display:inline-flex}body{background-color:#b57fda;font:12px/1.4 Gotham SSm A,Helvetica Neue,Helvetica,Arial}.pointSpan{top:49px;color:red;font-size:25px}.pointSpan,.questionSpan{font-weight:700;left:0;margin:0 auto;overflow:hidden;padding:4px;position:absolute;right:0;text-overflow:ellipsis;white-space:nowrap}.questionSpan{top:5px;font-size:15px}.answerSpan{bottom:5px;font-size:25px;left:0}.answerSpan,.buttonSpan{font-weight:700;margin:0 auto;overflow:hidden;padding:4px;position:absolute;right:0;text-overflow:ellipsis;white-space:nowrap}.buttonSpan{top:5px;font-size:8px;background-color:#bc8f8f}
+@charset "UTF-8";.block-div{display:inline-flex}body{background-color:#b57fda;font:12px/1.4 Gotham SSm A,Helvetica Neue,Helvetica,Arial}.fullscreenDiv{background-color:#e8e8e8;width:100%;height:auto;bottom:0;top:0;left:0;position:absolute}.center{position:fixed;width:500px;height:50px;top:50%;left:50%;margin-top:-25px;margin-left:-50px}
 
 /*!
  * Bootstrap v4.6.0 (https://getbootstrap.com/)
